@@ -1,0 +1,25 @@
+title: Hedgehog Code
+email: kubudub@hedgehogcode.com
+description: >-
+  coding, coding, coding...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  kubudubu
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-midnight
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,1 +1,12 @@
-Hello World
+---
+layout: default
+---
+
+<h1>Table of contents:</h1>
+
+{% for post in site.posts %}
+  <a href="{{ post.url }}">
+    {{ post.title }}
+    <br>
+  </a>
+{% endfor %}
